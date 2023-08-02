@@ -1,0 +1,223 @@
+.main {
+  display: flex;
+  width: 100%;
+}
+.mainLeft {
+  border: 2px solid #cfc2c2;
+  width: 800px;
+  margin: 6px 6px 6px 6px;
+  border-radius: 4px;
+  /* padding: 0 0 0 6px; */
+  background: #fffefc;
+  height: 540px;
+}
+.mainLeftLink {
+  text-decoration: none; /* Відсутність підкреслення тексту за замовчуванням */
+}
+
+.mainLeftLink:hover .mainLeftText {
+  text-decoration: underline;
+}
+.mainRight {
+  border: 2px solid #cfc2c2;
+  width: 430px;
+  margin: 6px 6px 6px 6px;
+  border-radius: 4px;
+  /* padding: 0 0 0 0px; */
+  background: #fffefc;
+  display: flex; /* Додаємо flex для вирівнювання елементів всередині */
+}
+.mainRightLink {
+  text-decoration: none;
+  display: flex; /* Додаємо flex для вирівнювання елементів всередині */
+  /* align-items: center; */
+  width: 364px;
+  padding: 16px 0 0 66px;
+}
+
+.mainRightText {
+  color: black;
+  font-size: 12px;
+}
+
+.mainRight {
+  border: 2px solid #cfc2c2;
+  margin: 6px;
+  border-radius: 4px;
+  background: #fffefc;
+  display: flex; /* Додаємо flex для вирівнювання елементів всередині */
+  height: 1090px;
+}
+
+/* .mainRightLink {
+  text-decoration: none;
+  display: flex; 
+} */
+.mainRightLink > img {
+  height: 200px;
+  margin: -16px 0 0 -66px;
+}
+.mainRightText {
+  color: black;
+  font-size: 12px;
+  width: 228px;
+  padding: 2px 2px 2px 2px;
+}
+
+.mainRight > ul > li {
+  height: 200px;
+  background: antiquewhite;
+}
+.mainRight > ul > li.pogoda {
+  margin: 0 0 0 -2px;
+  width: 422px;
+  height: 66px;
+  border: 1px solid green;
+  background: #9ce4e4;
+  text-transform: uppercase;
+}
+li.pogoda {
+  font-size: 12px;
+}
+li.pogoda > h3 {
+  margin: 4px 244px 0 0px;
+}
+
+span {
+  color: red;
+  font-size: 20px;
+}
+
+.mainRightLink:hover .mainRightText {
+  text-decoration: underline;
+}
+
+.mainRightLink:hover {
+  background: #f7f7f7; /* Новий колір фону при наведенні */
+}
+
+@media (min-width: 768px) and (max-width: 812px) {
+  .main {
+    display: block;
+  }
+  .mainRight {
+    width: 800px;
+  }
+  .mainRightText {
+    width: 592px;
+    font-size: 18px;
+  }
+  .mainRightLink {
+    width: 734px;
+  }
+  .mainRight > ul > li.pogoda {
+    width: 796px;
+  }
+  li.pogoda > h3 {
+    color: #b2b278;
+    margin: 12px 14px 0 0;
+    font-size: 16px;
+  }
+  li.pogoda > h4 {
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: block;
+  }
+  .mainRight {
+    width: 756px;
+  }
+  .mainRightLink {
+    width: 690px;
+    align-items: center;
+  }
+  .mainRightText {
+    width: 100%;
+  }
+  .mainLeft {
+    width: 764px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .mainLeftLink > img {
+    width: 764px;
+  }
+  img.mainRightImage {
+    width: 764px;
+  }
+  h3.mainLeftText {
+    width: 760px;
+    text-align: center;
+  }
+  .mainRight > ul > li.pogoda {
+    width: 750px;
+    margin: 10px 0 0 2px;
+  }
+  li.pogoda > h3 {
+    margin: 4px 5px 7px 0;
+  }
+}
+@media (max-width: 574px) {
+  .mainLeft {
+    width: 570px;
+  }
+  img.mainRightImage {
+    width: 570px;
+  }
+  .mainLeftLink > img {
+    width: 570px;
+  }
+
+  h3.mainLeftText {
+    width: 570px;
+    text-align: center;
+  }
+  .mainRight {
+    width: 560px;
+  }
+  .mainRight > ul > li {
+    width: 560px;
+  }
+  .mainRight > ul > li.pogoda {
+    width: 560px;
+    margin: 10px 0 0 0px;
+  }
+  .mainRightText {
+    width: 50%;
+  }
+  li.pogoda > h3 {
+    margin: 4px 5px 7px 0;
+  }
+}
+@media (max-width: 376px) {
+  .mainLeftLink > img {
+    width: 372px;
+  }
+  .mainLeft {
+    width: 372px;
+  }
+  h3.mainLeftText {
+    width: 364px;
+  }
+  .mainRight {
+    width: 366px;
+  }
+  a.mainRightLink {
+    width: 300px;
+    height: 180px;
+  }
+  .mainRight > ul > li {
+    width: 365px;
+    overflow: hidden;
+  }
+  .mainRightText {
+    padding: 33px 0 15px 5px;
+  }
+  .mainRight > ul > li.pogoda {
+    width: 364px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,115 @@
+.footer {
+  background: rgb(199, 199, 240);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 0;
+}
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.row > ul {
+  list-style: none;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 0px;
+}
+.footer-col > ul > li {
+  background: none;
+  border: none;
+  display: block;
+}
+.footer-col > h4 {
+  font-size: 18px;
+  color: rgb(234, 50, 234);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 800;
+  position: relative;
+}
+
+.footer-col > h4:before {
+  content: " ";
+  position: absolute;
+  left: 94px;
+  bottom: -10px;
+  background: rgb(19, 20, 19);
+  height: 2px;
+  box-sizing: border-box;
+  width: 120px;
+}
+.footer-col > ul > li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col > ul > li > a {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 6px 10px 6px 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.footer-col > ul > li > a:hover {
+  color: black;
+  padding-left: 16px;
+}
+.footer-col > .social-links > a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: rgb(166, 115, 115);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  color: rgb(145, 221, 125);
+  transition: all 0.3s ease;
+}
+.footer-col > .social-links > a:hover {
+  color: rgb(254, 160, 52);
+  background: wheat;
+  margin: 0px 10px 10px 0px;
+}
+
+.footerLast {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  justify-content: center;
+  display: flex;
+  padding-top: 38px;
+}
+
+/* responsive */
+
+@media (min-width: 769px) and (max-width: 812px) {
+  .footer-col > h4::before {
+    left: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+  .footer-col > h4::before {
+    left: 220px;
+  }
+}
+
+@media (max-width: 376px) {
+  .footer-col > h4::before {
+    left: 130px;
+  }
+}
