@@ -10,15 +10,15 @@ function BeforeHeader() {
         <ul>
           <li className="oneNews">
             <img src="images/j.jpg" alt="Jet" className="newsImage" />
-            <a href="#">
+            <a href="/russocc">
               російські окупаційні війська 1 червня обстріляли місто Берислав
               Херсонської області, внаслідок чого постраждали троє людей.
             </a>
           </li>
           <li className="twoNews">
             <img src="images/f.jpg" alt="Jet" className="newsImage" />
-            <a href="#">
-              FOrd опублікував масове відкликання в США понад 870 000 своїх
+            <a href="/ford">
+              Ford опублікував масове відкликання в США понад 870 000 своїх
               пікапів F-150 28 липня через проблему з електричним стоянковим
               гальмом, яке, як виявила компанія, може активуватися без
               попередження.
@@ -26,7 +26,7 @@ function BeforeHeader() {
           </li>
           <li className="threeNews">
             <img src="images/z.jpg" alt="Jet" className="newsImage" />
-            <a href="#">
+            <a href="/ukraine">
               Україна викладає ЧОТИРИ кроки, які Путін повинен зробити, щоб
               покласти край війні: «Шлях чистий»,«Якщо Москва хоче вести
               переговори, шлях ясний».Потім він виклав чотири ключові кроки,
@@ -35,7 +35,7 @@ function BeforeHeader() {
           </li>
           <li className="fourNews">
             <img src="images/b.jpg" alt="Jet" className="newsImage" />
-            <a href="#">
+            <a href="poland">
               Польща може повністю закрити свій кордон з Білоруссю, якщо
               вважатиме такий крок необхідною відповіддю на будь-яку «серйозну
               провокацію» з боку Мінська, заявив 27 липня 
