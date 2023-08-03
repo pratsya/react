@@ -443,7 +443,49 @@ ul > li > a:hover {
   color: rgb(89, 53, 188);
 }
 
-@media (min-width: 768px) and (max-width: 812px) {
+@media (max-width: 896px) {
+  .mainMenu > ul > li {
+    width: 176px;
+    height: 56px;
+    display: inline-flex;
+  }
+
+  .lftBordr > a,
+  .news > a,
+  .events > a,
+  .society > a,
+  .rghtBorder > a {
+    position: relative;
+    margin: 0 0 0 -4px;
+  }
+
+  .lftBordr:hover .submenu {
+    width: 886px;
+    z-index: 1;
+    top: 56px;
+  }
+  .news:hover .submenu1 {
+    width: 886px;
+    z-index: 1;
+    margin: 6px 0 0 -178px;
+    top: 50px;
+  }
+  .events:hover .submenu2 {
+    top: 56px;
+  }
+  .events:hover .submenu2 > li {
+    width: 886px;
+    z-index: 1;
+    margin: 0 0 0px -355px;
+  }
+  .society:hover .submenu3 {
+    left: 5px;
+    top: 156px;
+    width: 886px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 827px) {
   .mainMenu > ul > li {
     width: 160px;
     height: 56px;
@@ -520,44 +562,50 @@ ul > li > a:hover {
   }
 }
 @media (max-width: 574px) {
+  .mainMenu > ul > li {
+    display: block;
+    width: 412px;
+  }
+
   .lftBordr > a:before,
   .news > a:before,
   .events > a:before,
   .society > a::before,
   .rghtBorder > a::before {
-    left: 180px;
+    left: 86px;
   }
 
   .lftBordr:hover ul.submenu {
     z-index: 1;
     margin: 0px 14px;
-    width: 550px;
+    width: 388px;
     cursor: pointer;
   }
   .news:hover ul.submenu1 > li {
     z-index: 1;
-    margin: 0px 14px;
-    width: 550px;
+    margin: 0px 190px;
+    width: 388px;
     cursor: pointer;
   }
   .events:hover ul.submenu2 > li {
     z-index: 1;
     margin: 0px 14px;
-    width: 550px;
+    width: 388px;
     cursor: pointer;
   }
   .society:hover .submenu3 {
     left: 0px;
-    top: 398px;
-    width: 550px;
+    top: 420px;
+    width: 388px;
   }
   .society:hover ul.submenu3 > li {
     z-index: 1;
     margin: 0px 14px;
-    width: 550px;
+    width: 388px;
     cursor: pointer;
   }
 }
+
 @media (max-width: 376px) {
   .lftBordr > a:before,
   .news > a:before,
@@ -591,7 +639,7 @@ ul > li > a:hover {
   }
   .society:hover .submenu3 {
     left: 0px;
-    top: 398px;
+    top: 296px;
     width: 368px;
   }
   .society:hover ul.submenu3 > li {

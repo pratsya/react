@@ -81,7 +81,7 @@ function Footer() {
         </div>
       </div>
 
-      <span class="footerLast">&#169;Всі права захищені мною. 31.07.2023</span>
+      <span class="footerLast">&#169;Всі права захищені мною. 5.08.2023</span>
     </div>
   );
 }

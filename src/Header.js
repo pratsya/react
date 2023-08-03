@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from "react";
 import "./styles.css";
@@ -10,7 +11,7 @@ function Header() {
       <div class="mainMenu">
         <ul>
           <li class="lftBordr">
-            <a href ="/home">головна</a>
+            <a href ="#">головна</a>
             <ul class="submenu">
               <li>
                 <a href="/tenden" >
@@ -51,7 +52,7 @@ function Header() {
             </ul>
           </li>
           <li class="news">
-            <a href ="/novini">новини</a>
+            <a href ="#">новини</a>
             <ul class="submenu1">
               <li>
                 <a href ="/podar">
@@ -81,7 +82,7 @@ function Header() {
             </ul>
           </li>
           <li class="events">
-            <a href ="/eve">події</a>
+            <a href ="#">події</a>
             <ul class="submenu2">
               <li>
                 <a href ="/podvid">
@@ -142,7 +143,7 @@ function Header() {
             </ul>
           </li>
           <li class="society">
-            <a href ="/society">суспільство</a>
+            <a href ="#">суспільство</a>
 
             <ul class="submenu3">
               <li>
@@ -204,7 +205,7 @@ function Header() {
             </ul>
           </li>
           <li class="rghtBorder">
-            <a href ="/world">в світі</a>
+            <a href ="#">в світі</a>
           </li>
         </ul>
       </div>

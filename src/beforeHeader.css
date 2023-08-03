@@ -121,6 +121,8 @@
   text-transform: uppercase;
   font-weight: 500;
 }
+
+
 @media (max-width: 574px) {
   .first > ul > li {
     display: block;

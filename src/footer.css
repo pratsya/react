@@ -87,7 +87,13 @@
 
 /* responsive */
 
-@media (min-width: 769px) and (max-width: 812px) {
+@media (max-width: 897px) {
+  .footer-col > h4::before {
+    left: 56px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 827px) {
   .footer-col > h4::before {
     left: 42px;
   }
@@ -104,7 +110,10 @@
     width: 100%;
   }
   .footer-col > h4::before {
-    left: 220px;
+    left: 150px;
+  }
+  .row {
+    margin: 80px 0 0 0;
   }
 }
 
