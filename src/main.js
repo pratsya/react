@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// beforeHeader.js
+
 import React from "react";
 
 import "./main.css";
@@ -9,7 +9,7 @@ function Main() {
     <div className="main">
       <div class="leftSide">
         <div class="mainLeft">
-          <a href="/mainLeftLink" className="mainLeftLink">
+          <a href="#" className="mainLeftLink">
             <img src="images/pp.jpg" alt="house" className="mainRightImage" />
             <h3 class="mainLeftText">
               Сьогодні, 30 липня, близько третьої години ночі до вежі ділового
@@ -24,7 +24,7 @@ function Main() {
         </div>
 
         <div class="mainLeft">
-          <a href="/mainLeftLink" className="mainLeftLink">
+          <a href="#" className="mainLeftLink">
             <img src="images/koln.jpg" alt="house" className="" />
             <h3 class="mainLeftText">
               Місто розташоване на річці Рейн. Тут знаходиться знаменитий
@@ -42,7 +42,7 @@ function Main() {
       <div class="mainRight">
         <ul>
           <li>
-            <a href="/mainRightLink" className="mainRightLink">
+            <a href="#" className="mainRightLink">
               <img src="images/111.jpg" alt="Jeims Gip" />
               <h3 class="mainRightText">
                 "Україна поки що відповідає нашим очікуванням. Вони загалом
@@ -52,7 +52,7 @@ function Main() {
             </a>
           </li>
           <li>
-            <a href="/mainRightLink" className="mainRightLink">
+            <a href="#" className="mainRightLink">
               <img src="images/st.jpg" alt="Stalker2" />
               <h3 class="mainRightText">
                 <span>S.T.A.L.K.E.R 2 </span>Відкрийте новий розділ історії
@@ -63,7 +63,7 @@ function Main() {
             </a>
           </li>
           <li>
-            <a href="/mainRightLink" className="mainRightLink">
+            <a href="#" className="mainRightLink">
               <img src="images/my.jpg" alt="MikeTyson" />
               <h3 class="mainRightText">
                 Поява Тайсона в шоу Jimmy Kimmel Live.пов'язана ще й з недавнім
@@ -75,7 +75,7 @@ function Main() {
             </a>
           </li>
           <li>
-            <a href="/mainRightLink" className="mainRightLink">
+            <a href="#" className="mainRightLink">
               <img src="images/p.jpg" alt="Plushki" />
               <h3 class="mainRightText">
                 Шоу має підрубрику у якій її ведучий Богдан Лисевський бере
@@ -87,7 +87,7 @@ function Main() {
             </a>
           </li>
           <li>
-            <a href="/mainRightLink" className="mainRightLink">
+            <a href="#" className="mainRightLink">
               <img src="images/bar.jpg" alt="barbie" />
               <h3 class="mainRightText">
                 Фільм починається з розповіді історії Барбі: вона створювалася,

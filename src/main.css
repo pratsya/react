@@ -194,6 +194,10 @@ span {
   }
 }
 @media (max-width: 574px) {
+  .main {
+    width: 412px;
+  }
+
   .mainLeft {
     width: 408px;
   }

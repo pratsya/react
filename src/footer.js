@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./footer.css";
 
@@ -10,16 +11,16 @@ function Footer() {
             <h4>Компанія</h4>
             <ul>
               <li>
-                <a href="/about">Про нас</a>
+                <a href="#">Про нас</a>
               </li>
               <li>
-                <a href="/services">наші послуги</a>
+                <a href="#">наші послуги</a>
               </li>
               <li>
-                <a href="/privacy">політика конфіденційності</a>
+                <a href="#">політика конфіденційності</a>
               </li>
               <li>
-                <a href="/loyalty">програма лояльності</a>
+                <a href="#">програма лояльності</a>
               </li>
             </ul>
           </div>
@@ -27,19 +28,19 @@ function Footer() {
             <h4>Допопога</h4>
             <ul>
               <li>
-                <a href="/faq">Поширені запитання</a>
+                <a href="#">Поширені запитання</a>
               </li>
               <li>
-                <a href="/delivery">Доставка</a>
+                <a href="#">Доставка</a>
               </li>
               <li>
-                <a href="/returns">повернення</a>
+                <a href="#">повернення</a>
               </li>
               <li>
-                <a href="/order">статус замовлення</a>
+                <a href="#">статус замовлення</a>
               </li>
               <li>
-                <a href="/payments">види оплати</a>
+                <a href="#">види оплати</a>
               </li>
             </ul>
           </div>
@@ -48,32 +49,32 @@ function Footer() {
 
             <ul>
               <li>
-                <a href="/products">продукти</a>
+                <a href="#">продукти</a>
               </li>
               <li>
-                <a href="/cars">автомобілі</a>
+                <a href="#">автомобілі</a>
               </li>
               <li>
-                <a href="/people">людей &#128521;</a>
+                <a href="#">людей &#128521;</a>
               </li>
               <li>
-                <a href="/clothes">одяг</a>
+                <a href="#">одяг</a>
               </li>
             </ul>
           </div>
           <div class="footer-col">
             <h4>Слідкувати за нами</h4>
             <div class="social-links">
-              <a href="/social-links">
+              <a href="#">
                 <i class=" fab fa-facebook-f"></i>
               </a>
-              <a href="/instagram">
+              <a href="#">
                 <i class=" fab fa-instagram"></i>
               </a>
-              <a href="/youtube">
+              <a href="#">
                 <i class=" fab fa-youtube"></i>
               </a>
-              <a href="/telegram">
+              <a href="#">
                 <i class=" fab fa-telegram"></i>
               </a>
             </div>
