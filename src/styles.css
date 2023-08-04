@@ -499,24 +499,34 @@ ul > li > a:hover {
     display: flex;
     left: 0px;
     top: 55px;
-    width: 645px;
+    width: 810px;
   }
   .news:hover .submenu1 {
     display: flex;
-    left: 0px;
+    left: 16px;
     top: 52px;
-    width: 484px;
+    width: 810px;
   }
   .events:hover .submenu2 {
     display: flex;
-    left: 0px;
     top: 54px;
+    left: 31px;
+  }
+
+  .events:hover .submenu2 > li {
+    width: 808px;
   }
   .society:hover .submenu3 {
     display: flex;
-    left: 163px;
+    left: 8px;
     top: 154px;
-    width: 646px;
+    width: 808px;
+  }
+  .society:hover .submenu3 {
+    display: flex;
+    left: 8px;
+    top: 154px;
+    width: 808px;
   }
 }
 @media (min-width: 575px) and (max-width: 767px) {

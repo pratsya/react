@@ -122,7 +122,20 @@
   font-weight: 500;
 }
 
+@media (max-width: 827px) {
+  .first > ul {
+    width: 827px;
+  }
+  .first ul > li {
+    width: 164px;
+  }
+  .first a {
+    font-size: 12px;
+  }
+  
+}
 
+/* Ваши стили для ширины экрана меньше 574px */
 @media (max-width: 574px) {
   .first > ul > li {
     display: block;
