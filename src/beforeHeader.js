@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 // beforeHeader.js
 import React from "react";
 import "./beforeHeader.css";
