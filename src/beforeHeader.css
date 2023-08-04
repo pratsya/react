@@ -1,70 +1,4 @@
-.first > ul > li {
-  background: rgb(244 239 242);
-}
-
-.first > ul {
-  margin: 0 auto;
-  display: inline-block;
-}
-.first > ul > li > a {
-  margin: 0 0 50px 0;
-  height: 40px;
-  font-size: 11px;
-  padding: 0 0 0 0;
-  color: #1a1c1d;
-  font-weight: bolder;
-}
-
-.oneNews:hover {
-  color: blue;
-  background: rgb(236, 230, 230);
-}
-
-.twoNews:hover {
-  color: blue;
-  background: rgb(236, 230, 230);
-}
-.threeNews:hover {
-  color: blue;
-  background: rgb(236, 230, 230);
-}
-.fourNews:hover {
-  color: blue;
-  background: rgb(236, 230, 230);
-}
-.fiveNews:hover {
-  color: blue;
-  background: rgb(236, 230, 230);
-}
-.sixNews:hover {
-  color: blue;
-  background: rgb(236, 230, 230);
-}
-
-.oneNews:hover a {
-  color: rgb(62, 62, 245);
-  text-decoration: underline 1px solid rgb(228, 166, 241);
-}
-.twoNews:hover a {
-  color: rgb(62, 62, 245);
-  text-decoration: underline 1px solid rgb(228, 166, 241);
-}
-.threeNews:hover a {
-  color: rgb(62, 62, 245);
-  text-decoration: underline 1px solid rgb(228, 166, 241);
-}
-.fourNews:hover a {
-  color: rgb(62, 62, 245);
-  text-decoration: underline 1px solid rgb(228, 166, 241);
-}
-.fiveNews:hover a {
-  color: rgb(62, 62, 245);
-  text-decoration: underline 1px solid rgb(228, 166, 241);
-}
-.sixNews:hover a {
-  color: rgb(62, 62, 245);
-  text-decoration: underline 1px solid rgb(228, 166, 241);
-}
+/* beforeHeader.css */
 
 .beforeHeader {
   width: 100%; /* Ширина всего блока .beforeHeader */
@@ -74,15 +8,29 @@
   width: 100%; /* Ширина блока .first */
 }
 
-.first ul {
+.first > ul {
   list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
 }
 
-.first li {
-  flex: 1; /* Равномерное распределение пространства между элементами <li> */
+.first > ul > li {
+  background: rgb(244 239 242);
+}
+
+.first > ul {
+  margin: 0 auto;
+  display: flex;
+}
+
+.first > ul > li > a {
+  margin: 0 0 50px 0;
+  height: 40px;
+  font-size: 11px;
+  padding: 0 0 0 0;
+  color: #1a1c1d;
+  font-weight: bolder;
 }
 
 .newsImage {
@@ -92,55 +40,166 @@
 }
 
 .first a {
-  flex: 1; /* Растягивание текста на всю доступную ширину */
-  color: red;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 500;
-  justify-content: right;
+  color: #221f1f;
+  font-size: 8px;
+  font-weight: 800;
 }
 
 .first li {
-  display: flex; /* Используем flex для расположения элементов внутри <li> */
-  align-items: center; /* Выравниваем элементы по вертикали по центру */
-  text-overflow: ellipsis;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
-.newsImage {
-  width: 100px;
-  height: 100px;
-}
-
-.first a {
-  flex: 1; /* Занимаем все доступное пространство по горизонтали */
-  color: red;
-  cursor: pointer;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-@media (max-width: 827px) {
+@media (max-width: 414px) {
   .first > ul {
-    width: 827px;
+    width: 100%;
+    max-width: 373px; /* Максимальная ширина .first > ul в портретной ориентации */
+    flex-wrap: wrap;
   }
   .first ul > li {
-    width: 164px;
+    width: 100%;
+    margin: 5px 0;
   }
   .first a {
     font-size: 12px;
   }
-  
 }
 
-/* Ваши стили для ширины экрана меньше 574px */
-@media (max-width: 574px) {
-  .first > ul > li {
-    display: block;
+@media (max-width: 414px) and (orientation: portrait) {
+  .first > ul {
+    width: 412px; /* Ширина .first > ul в портретной ориентации и ширине экрана 414px */
+    flex-wrap: wrap;
   }
-  .first > ul > li > a {
-    padding: 0px 0px 4px 0px;
+  .first ul > li {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .first a {
+    font-size: 12px;
+  }
+}
+
+/* Стили для ландшафтной ориентации iPhone 11 */
+@media (max-width: 414px) and (orientation: landscape) {
+  .first > ul {
+    width: 100%;
+    max-width: 373px; /* Максимальная ширина .first > ul в ландшафтной ориентации */
+    flex-wrap: wrap;
+  }
+  .first ul > li {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .first a {
+    font-size: 12px;
+  }
+}
+
+/* beforeHeader.css */
+
+/* ... Ваши основные стили */
+
+/* Стили для портретной ориентации iPhone 11 с шириной экрана 414px */
+@media (max-width: 414px) and (orientation: portrait) {
+  .first > ul {
+    width: 412px; /* Ширина .first > ul в портретной ориентации и ширине экрана 414px */
+    flex-wrap: wrap;
+  }
+  .first ul > li {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .first a {
+    font-size: 12px;
+  }
+}
+
+/* Стили для ландшафтной ориентации iPhone 11 */
+@media (max-width: 414px) and (orientation: landscape) {
+  .first > ul {
+    width: 100%;
+    max-width: 373px; /* Максимальная ширина .first > ul в ландшафтной ориентации */
+    flex-wrap: wrap;
+  }
+  .first ul > li {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .first a {
+    font-size: 12px;
+  }
+}
+
+/* beforeHeader.css */
+
+/* ... Ваши основные стили */
+
+/* Стили для портретной ориентации iPhone 11 с шириной экрана 414px */
+@media (max-width: 414px) and (orientation: portrait) {
+  .first > ul {
+    width: 412px; /* Ширина .first > ul в портретной ориентации и ширине экрана 414px */
+    flex-wrap: wrap;
+  }
+  .first ul > li {
+    width: 100%;
+    margin: 2px 0;
+  }
+  .first a {
+    font-size: 12px;
+  }
+}
+
+/* Стили для ландшафтной ориентации iPhone 11 */
+@media (max-width: 414px) and (orientation: landscape) {
+  .first > ul {
+    width: 100%;
+    max-width: 373px; /* Максимальная ширина .first > ul в ландшафтной ориентации */
+    flex-wrap: wrap;
+  }
+  .first ul > li {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .first a {
+    font-size: 12px;
+  }
+}
+
+/* Ваши стили для ширины экрана от 415px до 827px */
+@media (min-width: 415px) and (max-width: 827px) {
+  .first > ul {
+    width: 100%;
+    max-width: 827px; /* Максимальная ширина .first > ul на устройствах от 415px до 827px */
+    flex-wrap: wrap;
+  }
+  .first ul > li {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .first a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 896px) and (orientation: landscape) {
+  /* .newsContetnt{
+    height: 111px;
+    overflow: hidden;
+  } */
+  .first > ul {
+    height: 108px;
+  }
+  .first li {
+    padding: 0px 0 0 0;
+    display: flex;
+  }
+
+  .first a {
+    height: 102px;
+    padding: 0 0 0 0;
+    display: inline-flex;
   }
 }

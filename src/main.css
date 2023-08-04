@@ -99,6 +99,7 @@ span {
   .main {
     display: block;
     width: 880px;
+    /* height: 400px; */
   }
   .mainRight {
     height: 1144px;
@@ -108,12 +109,13 @@ span {
   img.mainRightImage,
   .mainLeftLink > img,
   .mainRight > ul > li {
-    width: 818px;
-    h3.mainLeftText {
-      font-size: 16px;
-      padding: 0 0 0 12px;
-    }
+    width: 884px;
   }
+  h3.mainLeftText {
+    font-size: 16px;
+    padding: 0 0 0 12px;
+  }
+
   a.mainRightLink,
   .mainRightText {
     width: 818px;
@@ -132,8 +134,20 @@ span {
     width: 820px;
     margin: 141px 0 0 0;
   }
+  .mainRight > ul > li.pogoda {
+    width: 870px;
+    height: 128px;
+    margin: 6px 0 0 0;
+  }
   li.pogoda > h3 {
-    margin: 4px 42px 0 0px;
+    font-size: 22px;
+    margin: 22px 42px 0 0px;
+    color: #201995;
+  }
+  li.pogoda > h4 {
+    font-size: 17px;
+    font-weight: 900;
+    color: #b300ff;
   }
 }
 
@@ -207,6 +221,7 @@ span {
 @media (max-width: 574px) {
   .main {
     width: 412px;
+    height: 2378px;
   }
 
   .mainLeft {
