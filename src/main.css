@@ -100,23 +100,24 @@ span {
     display: block;
     width: 880px;
   }
-
+  .mainRight {
+    height: 1144px;
+  }
   .mainLeft,
   .mainRight,
   img.mainRightImage,
   .mainLeftLink > img,
   .mainRight > ul > li {
-    width: 880px;
-  }
-  h3.mainLeftText {
-    font-size: 16px;
-    padding: 0 0 0 12px;
+    width: 818px;
+    h3.mainLeftText {
+      font-size: 16px;
+      padding: 0 0 0 12px;
+    }
   }
   a.mainRightLink,
   .mainRightText {
-    width: 878px;
+    width: 818px;
     padding: 40px 0 0 0;
-    width: 816px;
   }
 
   .mainRightLink > img {
@@ -126,6 +127,11 @@ span {
   .mainRight > ul > li.pogoda {
     width: 874px;
   }
+
+  .mainRight > ul > li.pogoda {
+    width: 820px;
+    margin: 141px 0 0 0;
+  }
   li.pogoda > h3 {
     margin: 4px 42px 0 0px;
   }
@@ -134,47 +140,31 @@ span {
 @media (max-width: 827px) {
   .main {
     display: block;
-    width: 824px;
-  }
-  .leftSide {
-    width: 826px;
   }
   .mainRight {
-    width: 800px;
+    width: 818px;
   }
   .mainRightText {
     width: 592px;
     font-size: 18px;
-    margin: -48px 0 0 0;
+    margin: -36px 0 0 0px;
   }
-
-  .mainLeft,
-  .mainRight,
-  img.mainRightImage,
-  .mainLeftLink > img,
-  .mainRight > ul > li {
-    width: 816px;
+  .mainRightLink {
+    width: 734px;
   }
-  a.mainRightLink:hover {
-    width: 816px;
+  .mainRight > ul > li.pogoda {
+    width: 796px;
+    margin: 8px 0 0 0px;
+    height: 128px;
   }
-  .mainRightLink:hover .mainRightText {
-    margin: -48px 0 0 0px;
+  li.pogoda > h3 {
+    color: #b2b278;
+    margin: 41px 14px 0 0;
+    font-size: 22px;
   }
-}
-/* .mainRightText {
-    width: 824px;
-  } */
-.mainRight > ul > li.pogoda {
-  width: 796px;
-}
-li.pogoda > h3 {
-  color: #b2b278;
-  margin: 12px 14px 0 0;
-  font-size: 16px;
-}
-li.pogoda > h4 {
-  margin: 0 0 0 0;
+  li.pogoda > h4 {
+    margin: 0 0 0 0;
+  }
 }
 
 @media (max-width: 768px) {
