@@ -591,11 +591,13 @@ ul > li > a:hover {
     width: 388px;
     cursor: pointer;
   }
-  .news:hover ul.submenu1 > li {
+
+  .news:hover .submenu1 > li {
     z-index: 1;
     margin: 0px 190px;
     width: 388px;
     cursor: pointer;
+    /* left: 174px; */
   }
   .events:hover ul.submenu2 > li {
     z-index: 1;
@@ -626,6 +628,7 @@ ul > li > a:hover {
   }
   .mainMenu > ul > li {
     width: 370px;
+    left: 0;
   }
 
   .lftBordr:hover ul.submenu {
@@ -634,12 +637,16 @@ ul > li > a:hover {
     width: 368px;
     cursor: pointer;
   }
-
+  .news:hover .submenu1 {
+    display: flex;
+    left: 176px;
+  }
   .news:hover ul.submenu1 > li {
     /* z-index: 1; */
     margin: 0px 4px;
     width: 368px;
     cursor: pointer;
+    left: 14px;
   }
   .events:hover ul.submenu2 > li {
     z-index: 1;

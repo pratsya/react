@@ -1,7 +1,10 @@
+/* Общие стили */
+
 .main {
   display: flex;
   width: 100%;
 }
+
 .mainLeft {
   border: 2px solid #cfc2c2;
   width: 800px;
@@ -11,6 +14,7 @@
   background: #fffefc;
   height: 540px;
 }
+
 .mainLeftLink {
   text-decoration: none; /* Відсутність підкреслення тексту за замовчуванням */
 }
@@ -18,6 +22,7 @@
 .mainLeftLink:hover .mainLeftText {
   text-decoration: underline;
 }
+
 .mainRight {
   border: 2px solid #cfc2c2;
   width: 430px;
@@ -27,6 +32,7 @@
   background: #fffefc;
   display: flex; /* Додаємо flex для вирівнювання елементів всередині */
 }
+
 .mainRightLink {
   text-decoration: none;
   display: flex; /* Додаємо flex для вирівнювання елементів всередині */
@@ -40,23 +46,11 @@
   font-size: 12px;
 }
 
-.mainRight {
-  border: 2px solid #cfc2c2;
-  margin: 6px;
-  border-radius: 4px;
-  background: #fffefc;
-  display: flex; /* Додаємо flex для вирівнювання елементів всередині */
-  height: 1090px;
-}
-
-/* .mainRightLink {
-  text-decoration: none;
-  display: flex; 
-} */
 .mainRightLink > img {
   height: 200px;
   margin: -16px 0 0 -66px;
 }
+
 .mainRightText {
   color: black;
   font-size: 12px;
@@ -68,6 +62,7 @@
   height: 200px;
   background: antiquewhite;
 }
+
 .mainRight > ul > li.pogoda {
   margin: 0 0 0 -2px;
   width: 422px;
@@ -76,9 +71,11 @@
   background: #9ce4e4;
   text-transform: uppercase;
 }
+
 li.pogoda {
   font-size: 12px;
 }
+
 li.pogoda > h3 {
   margin: 4px 244px 0 0px;
 }
@@ -95,6 +92,9 @@ span {
 .mainRightLink:hover {
   background: #f7f7f7; /* Новий колір фону при наведенні */
 }
+
+/* Медиазапросы */
+
 @media (max-width: 897px) {
   .main {
     display: block;
@@ -218,41 +218,45 @@ span {
     margin: 4px 5px 7px 0;
   }
 }
+
 @media (max-width: 574px) {
   .main {
-    width: 412px;
-    height: 2378px;
+    width: 374px;
+    height: 714px;
   }
 
   .mainLeft {
-    width: 408px;
+    width: 368px;
+    height: 398px;
   }
   img.mainRightImage {
     width: 570px;
   }
   .mainRight {
-    width: 402px;
+    width: 360px;
     height: 1216px;
   }
   .mainLeftLink > img {
-    width: 408px;
+    width: 367px;
   }
   .mainRightLink > img {
     height: 196px;
     margin: -40px 0 0 0px;
   }
   h3.mainLeftText {
-    width: 390px;
+    width: 346px;
     text-align: center;
   }
 
   .mainRight > ul > li {
-    width: 400px;
     display: block;
-    height: 243px;
+    width: 362px;
+    height: 215px;
+    overflow: hidden;
+    padding: 0 0 0 0;
   }
   .mainRight > ul > li.pogoda {
-    width: 396px;
+    width: 360px;
     margin: 10px 0 0 0px;
   }
   .mainRightText {
@@ -263,7 +267,7 @@ span {
     margin: 4px 5px 7px 0;
   }
   .mainRightLink:hover {
-    width: 402px;
+    width: 358px;
   }
 
   .mainRightLink:hover img {
@@ -271,32 +275,44 @@ span {
   }
   a.mainRightLink,
   .mainRightText {
-    width: 390px;
-    font-size: 11px;
+    width: 362px;
+    font-size: 10px;
   }
 }
 
-@media (max-width: 376px) {
-  .mainLeftLink > img {
-    width: 372px;
+@media (max-width: 375px) {
+  .main {
+    height: 738px;
   }
+  .main,
+  .leftSide {
+    width: 375px;
+  }
+  .mainLeftLink > img,
   .mainLeft {
     width: 372px;
   }
+  .mainLeft {
+    height: 366px;
+  }
   h3.mainLeftText {
     width: 364px;
-    margin: 50px 0 0 0;
+    margin: 8px 0 0 -7px;
   }
-  .mainRight {
-    width: 366px;
-    height: 1112px;
+
+  .mainLeft,
+  .mainRight,
+  img.mainRightImage,
+  .mainLeftLink > img,
+  .mainRight > ul > li {
+    width: 368px;
   }
+
   a.mainRightLink {
-    width: 300px;
-    height: 180px;
+    width: 360px;
+    height: 233px;
   }
   .mainRight > ul > li {
-    width: 365px;
     overflow: hidden;
   }
   .mainRightText {
@@ -305,5 +321,8 @@ span {
   .mainRight > ul > li.pogoda {
     width: 364px;
     height: 80px;
+  }
+  .mainRightLink:hover {
+    width: 360px;
   }
 }

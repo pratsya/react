@@ -53,6 +53,10 @@
   align-items: center;
 }
 
+
+
+
+
 @media (max-width: 414px) {
   .first > ul {
     width: 100%;
@@ -67,6 +71,8 @@
     font-size: 12px;
   }
 }
+
+
 
 @media (max-width: 414px) and (orientation: portrait) {
   .first > ul {

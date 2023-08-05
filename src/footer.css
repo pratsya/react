@@ -105,19 +105,29 @@
     margin-bottom: 30px;
   }
 }
+
 @media (max-width: 574px) {
+  .container {
+    max-width: 375px;
+    margin: 0 0 0 0px;
+  }
   .footer-col {
     width: 100%;
   }
   .footer-col > h4::before {
-    left: 150px;
+    left: 0px;
   }
   .row {
     margin: 80px 0 0 0;
+    display: block;
+   
   }
 }
 
 @media (max-width: 376px) {
+  .footer {
+    margin: 1324px 0 0 0;
+  }
   .footer-col > h4::before {
     left: 130px;
   }
