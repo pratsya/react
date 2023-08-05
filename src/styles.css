@@ -443,226 +443,34 @@ ul > li > a:hover {
   color: rgb(89, 53, 188);
 }
 
-@media (max-width: 896px) {
-  .mainMenu > ul > li {
-    width: 176px;
-    height: 56px;
-    display: inline-flex;
-  }
-
-  .lftBordr > a,
-  .news > a,
-  .events > a,
-  .society > a,
-  .rghtBorder > a {
-    position: relative;
-    margin: 0 0 0 -4px;
-  }
-
-  .lftBordr:hover .submenu {
-    width: 886px;
-    z-index: 1;
-    top: 56px;
-  }
-  .news:hover .submenu1 {
-    width: 886px;
-    z-index: 1;
-    margin: 6px 0 0 -178px;
-    top: 50px;
-  }
-  .events:hover .submenu2 {
-    top: 56px;
-  }
-  .events:hover .submenu2 > li {
-    width: 886px;
-    z-index: 1;
-    margin: 0 0 0px -355px;
-  }
-  .society:hover .submenu3 {
-    left: 5px;
-    top: 156px;
-    width: 886px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 827px) {
-  .mainMenu > ul > li {
-    width: 160px;
-    height: 56px;
-    display: inline-flex;
-  }
-
-  .mainMenu > ul > li > a {
-    font-size: 13px;
-  }
-  .lftBordr:hover .submenu {
-    display: flex;
-    left: 0px;
-    top: 55px;
-    width: 810px;
-  }
-  .news:hover .submenu1 {
-    display: flex;
-    left: 16px;
-    top: 52px;
-    width: 810px;
-  }
-  .events:hover .submenu2 {
-    display: flex;
-    top: 54px;
-    left: 31px;
-  }
-
-  .events:hover .submenu2 > li {
-    width: 808px;
-  }
-  .society:hover .submenu3 {
-    display: flex;
-    left: 8px;
-    top: 154px;
-    width: 808px;
-  }
-  .society:hover .submenu3 {
-    display: flex;
-    left: 8px;
-    top: 154px;
-    width: 808px;
-  }
-}
-@media (min-width: 575px) and (max-width: 767px) {
-  ul > li {
-    display: block;
-    cursor: pointer;
-  }
-  .lftBordr > a:before,
-  .news > a:before,
-  .events > a:before,
-  .society > a::before,
-  .rghtBorder > a::before {
-    left: 280px;
-  }
-  .lftBordr:hover ul.submenu {
-    z-index: 1;
-    margin: 0px 10px;
-    width: 750px;
-    cursor: pointer;
-  }
-  .news:hover ul.submenu1 > li {
-    z-index: 1;
-    margin: 0px 10px;
-    width: 750px;
-    cursor: pointer;
-  }
-  .events:hover ul.submenu2 > li {
-    z-index: 1;
-    margin: 0px 10px;
-    width: 750px;
-    cursor: pointer;
-  }
-  .society:hover .submenu3 {
-    left: 0px;
-    top: 298px;
-    width: 750px;
-  }
-  .society:hover ul.submenu3 > li {
-    z-index: 1;
-    margin: 0px 10px;
-    width: 750px;
-    cursor: pointer;
-  }
-}
-@media (max-width: 574px) {
+@media (max-width: 414px) {
   .mainMenu > ul > li {
     display: block;
     width: 412px;
+    border: 1px solid red;
   }
 
-  .lftBordr > a:before,
-  .news > a:before,
-  .events > a:before,
-  .society > a::before,
-  .rghtBorder > a::before {
-    left: 86px;
+  .mainMenu > ul > li > a::before {
+    left: 90px;
   }
-
-  .lftBordr:hover ul.submenu {
+  .submenu,
+  .submenu1,
+  .submenu2,
+  .submenu3,
+  .submenu4 {
     z-index: 1;
-    margin: 0px 14px;
-    width: 388px;
-    cursor: pointer;
   }
-
-  .news:hover .submenu1 > li {
-    z-index: 1;
-    margin: 0px 190px;
-    width: 388px;
-    cursor: pointer;
-    /* left: 174px; */
-  }
-  .events:hover ul.submenu2 > li {
-    z-index: 1;
-    margin: 0px 14px;
-    width: 388px;
-    cursor: pointer;
+  .submenu > li,
+  .submenu1 > li,
+  .submenu2 > li,
+  .submen3 > li,
+  .submen4 > li {
+    width: 412px;
   }
   .society:hover .submenu3 {
-    left: 0px;
-    top: 420px;
-    width: 388px;
-  }
-  .society:hover ul.submenu3 > li {
-    z-index: 1;
-    margin: 0px 14px;
-    width: 388px;
-    cursor: pointer;
-  }
-}
-
-@media (max-width: 376px) {
-  .lftBordr > a:before,
-  .news > a:before,
-  .events > a:before,
-  .society > a::before,
-  .rghtBorder > a::before {
-    left: 72px;
-  }
-  .mainMenu > ul > li {
-    width: 370px;
-    left: 0;
-  }
-
-  .lftBordr:hover ul.submenu {
-    /* z-index: 1; */
-    margin: 0px 4px;
-    width: 368px;
-    cursor: pointer;
-  }
-  .news:hover .submenu1 {
     display: flex;
-    left: 176px;
-  }
-  .news:hover ul.submenu1 > li {
-    /* z-index: 1; */
-    margin: 0px 4px;
-    width: 368px;
-    cursor: pointer;
-    left: 14px;
-  }
-  .events:hover ul.submenu2 > li {
-    z-index: 1;
-    margin: 0px 4px;
-    width: 368px;
-    cursor: pointer;
-  }
-  .society:hover .submenu3 {
-    left: 0px;
-    top: 296px;
-    width: 368px;
-  }
-  .society:hover ul.submenu3 > li {
-    z-index: 1;
-    margin: 0px 4px;
-    width: 368px;
-    cursor: pointer;
+    left: 0;
+    top: 602px;
+    width: 412px;
   }
 }
