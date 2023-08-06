@@ -103,7 +103,11 @@
     display: block;
   }
 }
+
 @media (min-width: 415px) and (max-width: 896px) {
+  .footer,.container {
+    width: 896px;
+  }
   .footer-col > h4::before {
     left: 50px;
   }
