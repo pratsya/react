@@ -86,11 +86,9 @@
   .first a {
     cursor: pointer;
     text-decoration: none;
-
     display: block;
-    height: 85px;
-    overflow: hidden;
     padding: 0 0;
-    font-size: 13px;
+    height: 68px;
+    font-size: 7px;
   }
 }
