@@ -160,3 +160,59 @@ span {
     color: #4530da;
   }
 }
+@media (min-width: 415px) and (max-width: 896px) {
+  .main,
+  .mainLeftLink {
+    display: block;
+    width: 894px;
+  }
+  .leftSide {
+    width: 894px;
+  }
+  .mainLeft {
+    width: 894px;
+    border-radius: 4px;
+    background: #fffefc;
+    height: 540px;
+    margin: 0 0 0 0;
+    border: 1px solid red;
+  }
+  .mainLeftLink > img {
+    display: block;
+    width: 894px;
+    height: 404px;
+  }
+  .mainRight {
+    border: 2px solid #cfc2c2;
+    width: 892px;
+    border-radius: 4px;
+    padding: 0 0 0 0px;
+    background: #fffefc;
+    display: block;
+    margin: 0 0 0 0;
+  }
+  .mainRight > ul > li {
+    width: 894px;
+    display: block;
+  }
+  .mainRightLink {
+    width: 828px;
+  }
+  .mainRightText {
+    color: black;
+    font-size: 12px;
+    width: 683px;
+    padding: 43px 2px 2px 2px;
+  }
+  .mainRight > ul > li.pogoda {
+    margin: 0 0;
+    width: 894px;
+  }
+  li.pogoda > h3 {
+    margin: 18px 16px 0 0px;
+  }
+  li.pogoda > h4 {
+    margin: 0 0;
+    color: #7e33ed;
+  }
+}

@@ -53,6 +53,27 @@
   align-items: center;
 }
 
+@media (max-width: 896px) {
+  .first {
+    max-width: 896px;
+  }
+  .first > ul {
+    margin: 0 auto;
+    display: flex;
+    width: 894px;
+  }
+  .first a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 8px;
+    display: block;
+    height: 90px;
+    overflow: hidden;
+    padding: 12px 0 0 0;
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 414px) {
   .first {
     max-width: 414px;
@@ -61,5 +82,13 @@
     margin: 0 auto;
     display: block;
     width: 412px;
+  }
+  .first > a {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    height: 90px;
+    overflow: hidden;
+   
   }
 }

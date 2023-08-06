@@ -463,8 +463,8 @@ ul > li > a:hover {
   .submenu > li,
   .submenu1 > li,
   .submenu2 > li,
-  .submen3 > li,
-  .submen4 > li {
+  .submenu3 > li,
+  .submenu4 > li {
     width: 412px;
   }
   .society:hover .submenu3 {
@@ -473,4 +473,61 @@ ul > li > a:hover {
     top: 602px;
     width: 412px;
   }
+}
+
+@media (min-width: 415px) and (max-width: 896px) {
+  .mainMenu > ul {
+    display: flex;
+    width: 896px;
+  }
+  .mainMenu > ul > li {
+    display: block;
+    width: 178px;
+  }
+  .mainMenu > ul > li > a {
+    padding: 28px 0px 24px 60px;
+  }
+  .mainMenu > ul > li > a::before {
+    top: 12px;
+    left: 13px;
+  }
+  .lftBordr:hover .submenu {
+    display: flex;
+    left: 0px;
+    top: 68px;
+    width: 894px;
+    z-index: 1;
+  }
+
+  .news:hover .submenu1 {
+    display: flex;
+    left: -178px;
+    top: 68px;
+    width: 894px;
+    z-index: 1;
+  }
+  .events:hover .submenu2 {
+    display: flex;
+    left: -357px;
+    top: 68px;
+  }
+  .events:hover .submenu2 > li {
+    width: 892px;
+  }
+
+  .society:hover .submenu3 {
+    display: flex;
+    left: 0px;
+    top: 170px;
+    width: 894px;
+  }
+
+  .submenu > li > a,
+  .submenu1 > li > a,
+  .submenu2 > li > a,
+  .submenu3 > li > a,
+  .submenu4 > li > a {
+    font-size: 18px;
+  }
+  
 }
