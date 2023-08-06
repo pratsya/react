@@ -44,15 +44,15 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #221f1f;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 800;
+  display: block;
 }
 
 .first li {
   display: flex;
   align-items: center;
 }
-
 
 @media (max-width: 414px) {
   .first {
@@ -72,7 +72,6 @@
     padding: 0 0;
     display: block;
     font-size: 11px;
-   
   }
 }
 @media (min-width: 415px) and (max-width: 896px) {
@@ -87,11 +86,11 @@
   .first a {
     cursor: pointer;
     text-decoration: none;
-    
+
     display: block;
     height: 88px;
     overflow: hidden;
-    padding: 10px 0 0 0;
+    padding: 0 0;
     font-size: 13px;
   }
 }

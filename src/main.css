@@ -119,6 +119,9 @@ span {
     width: 412px;
     margin: 0 auto;
   }
+  .mainRight > ul > li {
+    height: 204px;
+  }
   .mainLeftText {
     width: 412px;
     margin: 0 0 0 0;
